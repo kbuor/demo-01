@@ -6,12 +6,12 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo "Building code..." >> demo01.txt
+                echo "Building code..."
             }
         }
         stage('Test') {
             steps {
-                echo "Testing..." >> demo01.txt
+                echo "Testing..."
             }
         }
     }
